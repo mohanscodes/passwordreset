@@ -1,0 +1,38 @@
+.input-box{
+    margin-top: 5%;
+    border-radius: 25px;
+    padding: 10px;
+    background: linear-gradient(212deg, rgba(40,34,195,1) 7%, rgba(255,0,0,1) 72%);
+    box-shadow: 0px 0px 10px  0px rgba(0, 0, 0, 0.267);
+    border: 5px solid white;
+}
+h1{
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 235, 254);
+}
+.a-link{
+ display: flex;
+ justify-content:space-evenly;
+ align-items: center;
+
+}
+.a-link a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.a-link a:hover{
+    text-decoration:none;
+    color: #ffffff;
+}
+
+label{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
