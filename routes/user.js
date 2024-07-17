@@ -408,8 +408,8 @@ router.post("/fwd", async (req,res)=>{
              const transporter = nodemailer.createTransport({
              service:"gmail",
                auth: {
-               user: "webdesignintamil@gmail.com",
-               pass: "mwjytjxytpazjuop",
+               user: MAIL_SEND_IDS ,
+               pass: MAIL_PWDS,
                },
           });
 
